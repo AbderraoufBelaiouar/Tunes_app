@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:music_notes_player_app_setup/views/tune_view.dart';
+import 'package:music_notes_player_app_setup/screens/Tune_screen.dart';
 
 void main() {
   runApp(const TuneApp());
@@ -10,9 +10,9 @@ class TuneApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
+    return  MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: TuneView(),
+      home: tune_screen(),
     );
   }
 }
